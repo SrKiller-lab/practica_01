@@ -1,6 +1,8 @@
+#Se piden el valor de las variables
 nume1 = int(input("1: "))
 nume2 = int(input("2: "))
 
+#se definen las operaciones
 def suma(num1,num2):
     sumat = num1 + num2
     print(f"la suma es {sumat}")
@@ -17,6 +19,7 @@ def division(num1,num2):
     divi = num1 / num2
     print(f"la division es {divi}")
 
+#se realiza la operacion y muestra el resultado
 if __name__ == "__main__":
     suma(nume1, nume2)
     resta(nume1, nume2)
